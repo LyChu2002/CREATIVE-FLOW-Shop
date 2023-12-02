@@ -1,0 +1,79 @@
+.content{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.content .auth-container{
+    display: flex;
+    margin-top: 150px;
+}
+
+.sign_in{
+    width: 50%;
+    border-right: 1px solid #d3d3d3;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.content h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sign_in .row, .register .row{
+    margin-bottom: 35px;
+    margin-right: 35px;
+}
+
+
+.sign_in input, .register .form_register .row > input{
+    display: block;
+    width: 550px;
+    height: 40px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    border: 1px solid #d3d3d3;
+    font-size: 16px;
+}
+
+.sign_in .btn-sign-in, .register .btn-register{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #221F20;
+    border: none;
+    padding: 16px 36px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.sign_in .btn-sign-in:hover, .register .btn-register:hover{
+    color: #221F20;
+    background-color: #ffffff;
+    border: 2px solid #221F20;
+}
+
+.sign_in .forgot-password a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 12px;
+    display: block;
+    text-align: right;
+}
+
+.sign_in .forgot-password a:hover{
+    color: #9d702c;
+}
+
+.register{
+    margin-left: 35px;
+}

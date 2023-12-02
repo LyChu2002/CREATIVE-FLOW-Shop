@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.menu{
+    background-color: #373b31;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.main-menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.main-menu > li{
+    position: relative;
+}
+
+.main-menu > li > a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    padding: 26px 16px;
+}
+
+.main-menu > li:hover > a{
+    color: #9d702c;
+}
+
+.main-menu > li:hover .sub-menu{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    animation: growDown 500ms ease-in-out forwards;
+    transform-origin: top center;
+    animation-name: move;
+    animation-duration: 0.5s;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.sub-menu{
+    position: absolute;
+    background-color: #ffffff;
+    top: 55px;
+    left: 14px;
+    min-width: 500px;
+    box-shadow: 0 0 20px #5c5c5c;
+    visibility: hidden;
+}
+
+@keyframes move{
+    from{top: 85px;}
+    to{top: 55px;}
+}
+
+.sub-menu .catalog-lists{
+    display: flex;
+}
+
+.sub-menu li:hover a{
+    color: #9d702c;
+}
+
+.sub-menu ul{
+    list-style-type: none;
+}
+
+.sub-menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: #7b7171;
+    padding: 12px 0;
+}
+
+.list-item h4{
+    color: #373b31;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.logo-brand img{
+    margin-top: 22px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.form-search{
+    display: flex;
+    margin: auto;
+    margin-top: 16px;
+    margin-right: 6px;
+}
+
+.form-search input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-right: none;
+}
+
+.form-search button{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-left: none ;
+}
+
+.user-cart{
+    display: flex;
+}
+
+.user-cart > a{
+    text-decoration: none;
+    display: block;
+    padding: 22px 8px;
+}
+
+.user-cart i{
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto;
+}
+
+.cart-icon{
+    position: relative;
+}
+
+.cart-icon .cart-status{
+    position: absolute;
+    top: 16px;
+    left: 23px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: red;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main .breadcrumb{
+    margin-top: 80px;
+    background-color: #f5f5f5;
+    padding: 12px 100px;
+}
+
+.main .breadcrumb span a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+}
+
+.main .breadcrumb span a:hover{
+    color: #9d702c;
+}
+
+.main .breadcrumb span::after {
+    content: "/";
+    margin: 0 6px;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.main .breadcrumb  span:last-child::after {
+    content: "";
+}
+
+footer{
+    margin-top: 70px;
+    background-color: #f8f8f8;
+}
+
+.content-information{
+    max-width: 1170px;
+    margin: auto;
+    padding-top: 65px;
+    padding-bottom: 56px;
+}
+
+.information{
+    display: flex;
+    
+}
+
+.content-item{
+    width: calc(100%/4);
+}
+
+.content-item h4{
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    color: #373b31;
+    font-weight: 600;
+}
+
+.content-item ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-item ul li a, .content-item p{
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.content-item ul li:hover a{
+    color: #9d702c;
+}
+
+.content-item p{
+    line-height: 32px;
+}
+
+.content-item i{
+    padding-right: 12px;
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.register-information input{
+    height: 28px;
+    width: 150px;
+    border: 1px solid #373b31;
+}
+
+.register-information button{
+    color: #ffffff;
+    background-color: #373b31;
+    border: 2px solid #373b31;
+    height: 30px;
+
+}
+
+.register-information button:hover{
+    background-color: #9d702c;
+    border: 2px solid #9d702c;
+}

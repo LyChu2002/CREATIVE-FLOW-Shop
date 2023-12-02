@@ -1,0 +1,45 @@
+.registration-form{
+    margin-top: 140px;
+}
+
+.registration-form h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.registration-form .form-group .required{
+    color: red;
+    font-size: 16px;
+}
+.form-group{
+    position: relative;
+}
+.show-hide, .show-hide-two{
+    position: absolute;
+    top: 39px;
+    left: 550px;
+}
+.registration-form .form-message{
+    color: red;
+    font-size: 13px;
+}
+.registration-form .btn{
+    padding: 12px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+   
+}
+.registration-form .btn:hover{
+    background-color: #fff;
+    color: #333;
+}
+.registration-form .form-left{
+    border-right: 1px solid #ccc;
+}

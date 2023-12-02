@@ -1,0 +1,228 @@
+.main-content h2{
+    margin-top: 40px;
+}
+
+.main-content .auth-container{
+    margin-top: 32px;
+    display: flex;
+}
+
+.list-cart-product{
+    width: 70%;
+}
+
+.list-cart-product .product-detail-cart{
+    display: flex;
+}
+
+.product-img-cart {
+    width: 100px;
+    padding: 16px 0 16px;
+}
+
+.product-img-cart img{
+    width: 100%;
+}
+
+.product-info-cart{
+    padding: 16px 16px 0;
+    color: #6D6C70;
+}
+
+.product-info-cart .product-name-cart a{
+    font-size: 17px;
+    /*text-transform: uppercase;*/
+    margin-bottom: 24px;
+    text-decoration: none;
+    display: block;
+    color: #6D6C70;
+    font-weight: 600;
+}
+
+.product-info-cart .product-name-cart a:hover{
+    color: #9d702c;
+    font-weight: 600;
+}
+
+.product-info-cart span, .product-info-cart .product-color-cart, .product-info-cart .product-size-cart{
+    font-size: 14px;
+}
+
+.product-price-cart, .product-quantity-cart{
+    padding: 16px 16px;
+    font-size: 16px;
+    color: #6D6C70;
+}
+
+.product-quantity-cart{
+    display: flex;
+    padding: 32px 32px;
+}
+
+.product-quantity-cart .input-quantity{
+    width: 50px;
+    height: 30px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+}
+
+.product-quantity-cart .btn-qty{
+    background-color: #ffffff;
+    font-size: 24px;
+    border: 1px solid #333333;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 29px;
+}
+
+.product-quantity-cart .btn-plus{
+    border-left: none;
+}
+
+.product-quantity-cart .btn-subtract{
+    border-right: none;
+}
+
+.list-cart-product .total-price{
+    font-weight: bold;
+    color: #333333;
+    padding: 16px 16px;
+    font-size: 16px;
+}
+.remove-product{
+    padding: 0 24px;
+}
+
+.remove-product .btn-delete{
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+.remove-product .btn-delete:hover{
+    color: rgb(214, 38, 38);
+}
+
+table tr td{
+    border-bottom: 1px solid #cccccc;
+}
+
+table tr th{
+    border-bottom: 1px solid #cccccc;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #6D6C70;
+    text-align: center;
+}
+
+.back-to-shopping{
+    background-color: #ffffff;
+    height: 40px;
+    width: 170px;
+    border: 1px solid #221F20;
+    margin-top: 16px;
+    cursor: pointer;
+
+}
+
+.back-to-shopping a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #221F20;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+
+.back-to-shopping:hover a{
+    color: #ffffff;
+    background-color:  #221F20;
+}
+
+.product-bill{
+    background-color: rgba(247, 248, 249, 0.5);;
+    padding: 16px 16px;
+    width: 30%;
+    height: 400px;
+}
+
+.product-bill > p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.product-bill .product-summary{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 12px 0;
+}
+
+.product-bill .product-summary p{
+    color: #6D6C70;
+}
+
+.product-bill .product-summary .order-price-total, .product-bill .product-summary .order-price-total{
+    font-size: 18px;
+    color: #221F20;
+    font-weight: bold;
+}
+
+.product-bill .btn-order{
+    color: #ffffff;
+    background-color: #221F20;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 12px;
+    border: none;
+    margin-top: 12px;
+}
+
+.product-bill .btn-order:hover{
+    color: #221F20;
+    background-color: #ffffff;
+    border: 1px solid #221F20;
+}
+
+.place-order-infor{
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.place-order-infor h3{
+    padding-bottom: 4px;
+    border-bottom: 2px solid #333;
+    text-align: center;
+    font-weight: 600;
+}
+
+.place-order-infor label{
+    display: inline-block;
+    width: 150px;
+    color: rgb(39, 2, 2);
+}
+
+.place-order-infor label span{
+    color: red;
+}
+
+.place-order-infor input{
+    width: 900px;
+    height: 35px;
+    border: 1px solid rgb(226, 220, 220)1b1;
+}
+
+.place-order-infor .card-body{
+    padding-left: 90px;
+
+}
+
+
